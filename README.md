@@ -1,3 +1,5 @@
+Lecturer Scheduler
+
 **Welcome to Lecturer Scheduler wiki page**
 
 **Lecturer Scheduler Vision:**
