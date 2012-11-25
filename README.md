@@ -12,7 +12,7 @@ this  project is open source, with BSD license.
 Compile the project: 
 development environment Visual Studio
 
-Product testing:  
+Product testing:
 in the future
 
 Preparing a new version: 
