@@ -8,6 +8,7 @@ The main goal of our project is to build a modern and convenient system to facil
 
 Project license: 
 this  project is open source, with BSD license.
+the source code is available in the project page in the repository.
 
 Compile the project: 
 development environment Visual Studio
