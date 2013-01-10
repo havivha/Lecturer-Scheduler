@@ -1,0 +1,327 @@
+﻿@model IEnumerable<Lecturer_Scheduler.Models.Scheduler>
+
+@{
+    ViewBag.Title = "Scheduler";
+}
+
+<h2>Scheduler</h2>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+
+<html>
+    <head>
+        <title>How to retrieve information from cell clicked in a Table</title>
+        <script type='text/javascript' src='http://jqueryjs.googlecode.com/files/jquery-1.3.2.min.js'></script>
+        <script type="text/javascript">
+
+			// the function check what the user choise of filling the scheduler
+			// and take care of seting the color respectively 
+            var cell_color;
+            function color_select(form_color_select) {
+                for (var i = 0; i < form_color_select.color_group.length; i++) {
+                    if (form_color_select.color_group[i].checked) {
+                        cell_color = form_color_select.color_group[i].value;
+                        return;
+                    }
+                }
+                cell_color = "white";
+            }
+
+            $(document).ready(function () {
+                $("tbody td").click(function (e) {
+                    $(this).css("background-color", cell_color);
+                    $(this).css("font-weight", "bold");
+                    e.stopPropagation();
+                    var currentCellText = $(this).text();
+                    var LeftCellText = $(this).prev().text();
+                    var RightCellText = $(this).next().text();
+                    var RowIndex = $(this).parent().parent().children().index($(this).parent());
+                    var ColIndex = $(this).parent().children().index($(this));
+                    var RowsAbove = RowIndex;
+                    var ColName = $(".head").children(':eq(' + ColIndex + ')').text();
+
+                    /*
+                    $("#para").text('')
+                    .append("<b>Current Cell Text: </b>" + currentCellText + "<br/>")
+                    .append("<b>Text to Left of Clicked Cell: </b>" + LeftCellText + "<br/>")
+                    .append("<b>Text to Right of Clicked Cell: </b>" + RightCellText + "<br/>")
+                    .append("<b>Row Index of Clicked Cell: </b>" + RowIndex + "<br/>")
+                    .append("<b>Column Index of Clicked Cell: </b>" + ColIndex + "<br/>")
+                    .append("<b>Rows above Current Clicked Row: </b>" + RowsAbove + "<br/>")
+                    .append("<b>Column Name of Clicked Cell: </b>" + ColName)
+                    */
+                });
+            });
+           
+        </script>
+        <style type="text/css">
+            body
+            {
+                font-family:Garamond;
+            }
+        </style>
+    </head>
+	
+	<head>
+	<script type="text/javascript" src="JavaScript/jquery-1.7.2.js"></script>
+			<link type="text/css" href="Stylesheet.css" rel="Stylesheet" />
+			<script type="text/javascript">
+            $(document).ready(function () {
+
+				// Get Scheduler Data
+				$('#getScheduler').click(function (event) {
+					alert("Row Clicked");                    
+				
+				});      
+            });
+        </script>       
+    </head>
+
+    <body>
+        <table id="Scheduler" border="1" td width="80%" cellspacing="0" cellpadding="0" align="left">
+            <thead>
+                <tr class="head">
+                    <th width="10%">שישי</th>
+                    <th>חמישי</th>
+                    <th>רביעי</th>
+                    <th>שלישי</th>
+                    <th>שני</th>
+                    <th>ראשון</th>
+                    <th> </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>8:00 - 8:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>9:00 - 9:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>10:00 - 10:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>11:00 - 11:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>12:00 - 12:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>13:00 - 13:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>14:00 - 14:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>15:00 - 15:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>16:00 - 16:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>17:00 - 17:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>18:00 - 18:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>19:00 - 19:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>20:00 - 20:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>21:00 - 21:45</th>
+                </tr>
+                <tr >
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <td> </td>
+                    <th>22:00 - 22:45</th>
+                </tr>
+            </tbody>
+        </table>
+        <p id="para" />
+		
+		<br> </br>
+        <br> </br>         
+        <p>
+            <form name="form_year_select" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+            <div align="right">
+                <select name="year">
+              
+                    <option value="">אנא בחר שנה</option>
+                    <option>2012</option>
+                    <option>2013</option>
+                    <option>2014</option>
+					<option>2015</option>
+               
+                </select>
+            </div>
+            </form>
+        </p>
+        <hr>
+
+		<br> </br>
+        <br> </br>
+
+			<form name="form_semester_select" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+            <div align="right">
+                <br>
+                סמסטר א<input type="radio" name="semester_group" value="semesterA">
+                       <br>
+            </div>
+            <div align="right">
+                <br>
+                סמסטר ב<input type="radio" name="semester_group" value="semesterB">
+                       <br>
+            </div>
+            <div align="right">
+                <br>
+                סמסטר קיץ<input type="radio" name="semester_group" value="semesterS">
+                         <br>
+            </div>
+        </form>
+		
+		
+		<input type="submit" 
+              name="getScheduler" 
+              value="Get Scheduler Data" 
+              id="getScheduler" />
+		
+
+        <form action="demo_form.asp">
+		     <br>  
+			 <div align="center">
+			 <input type="submit" value="הצג מערכת" >
+			 <br>
+		     </div>
+		</form>
+        <hr>
+
+        <form name="form_color_select" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+            <div align="right" style="color: #00FF00">
+                <br>
+                יכול<input type="radio" name="color_group" value="#00FF00" onClick="color_select(form_color_select)">
+                    <br>
+            </div>
+            <div align="right" style="color: #FF9900">
+                <br>
+                אולי<input type="radio" name="color_group" value="#FF9900" onClick="color_select(form_color_select)"> 
+                    <br>
+            </div>
+            <div align="right" style="color: #FF0000">
+                <br>
+                לא יכול<input type="radio" name="color_group" value="#FF0000" onClick="color_select(form_color_select)">
+                       <br>
+            </div>
+            <div align="right" style="color: #000000">
+                <br>
+                מחיקה<input type="radio" name="color_group" value="#FFFFFF" onClick="color_select(form_color_select)">
+                       <br>
+            </div>
+        </form>
+
+    </body>
+</html>
+
+<form>// action="demo_form.asp">
+    <br>   <div align="center">
+    <input type="submit" value="שמירה" >
+    <br>
+    </div>
+</form>
+<hr>
+
+<br> </br>
+<br> </br>
+

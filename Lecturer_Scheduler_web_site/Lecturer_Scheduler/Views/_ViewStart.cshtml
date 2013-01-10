@@ -1,0 +1,18 @@
+﻿@{
+    if(Request.IsAuthenticated)
+    {
+        if (User.Identity.Name != "Secretary")
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";<!--will show "_Layout.cshtml" if user logged in-->
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_SecretaryLayout.cshtml";<!--will show "_SecretaryLayout.cshtml" if user logged in-->
+        }
+
+    }
+    else
+    {
+        Layout = "~/Views/Shared/_AnonLayout.cshtml";<!--will show "_AnonLayout.cshtml" if user didn't logged in-->
+    }
+}

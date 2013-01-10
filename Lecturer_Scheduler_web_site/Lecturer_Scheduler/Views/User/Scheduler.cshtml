@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Lecturer_Scheduler.Models.Scheduler>
+
+@{
+    ViewBag.Title = "Scheduler";
+}
+
+<h2>Scheduler</h2>
+
+<table>
+    <tr>
+        <th>
+            UserId
+        </th>
+        <th>
+            Year
+        </th>
+        <th>
+            Semester
+        </th>
+        <th>
+            Day
+        </th>
+        <th>
+            StartTime
+        </th>
+        <th>
+            EndTime
+        </th>
+        <th>
+            AvailabilityTypeId
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Year)
+        </td>
+		 <td>
+            @Html.DisplayFor(modelItem => item.Semester)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Day)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AvailabilityTypeId)
+        </td>
+    </tr>
+}
+
+</table>

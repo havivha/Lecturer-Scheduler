@@ -1,0 +1,64 @@
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll.config
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.pdb
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.dll
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.pdb
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.csprojResolveAssemblyReference.cache
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.dll
+c:\users\sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\Sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Sara\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.xml
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll.config
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.pdb
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.xml
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.csprojResolveAssemblyReference.cache
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.dll
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.pdb
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.xml
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.pdb
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.xml
+C:\Users\hadas\documents\visual studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll.config
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.pdb
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.pdb
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.xml
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.pdb
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.xml
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\Schaefer\Documents\Visual Studio 2010\Projects\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll.config
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.Tests.pdb
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Lecturer_Scheduler.pdb
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\EntityFramework.xml
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.pdb
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\Moq.xml
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.pdb
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\MvcRouteUnitTester.xml
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\bin\Debug\nunit.framework.xml
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.dll
+C:\Users\Sara\Desktop\Lecturer_Scheduler\Lecturer_Scheduler.Tests\obj\Debug\Lecturer_Scheduler.Tests.pdb
