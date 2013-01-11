@@ -1,0 +1,27 @@
+﻿* {
+	padding:0;
+    margin: 0;
+}
+
+
+body
+{
+    background-image: url('images/test.jpg');
+    padding: 0;
+    margin: 0;
+    font-family: Guttman-Aharoni;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+    background-attachment: fixed;
+}
+#header {	
+	background-repeat:no-repeat;
+	background-image: url(images/test.jpg);
+	height: 242px;
+	width: 712px;
+	float:left;
+	margin-top: 110px;
+	    color: #FFFF00;
+}

@@ -136,9 +136,13 @@
     <Content Include="graphics\images\seekers_login.jpg" />
     <Content Include="graphics\images\stickman_check_marking_11_30_08_pc_pro_me.jpg" />
     <Content Include="graphics\images\stickman_lifting_free_pc_1600_clr_2095.png" />
+    <Content Include="graphics\images\test.jpg" />
     <Content Include="graphics\images\Web%2520to%2520Post%2520Stickman.jpg" />
     <Content Include="graphics\images\white stick man.jpg" />
     <Content Include="graphics\images\מכללה ירושלים.jpg" />
+    <Content Include="graphics\StyleLogin.css" />
+    <Content Include="graphics\StyleLogin1.css" />
+    <Content Include="graphics\StyleScheduler.css" />
     <Content Include="Scripts\jquery-1.5.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.5.1.js" />
     <Content Include="Scripts\jquery-1.5.1.min.js" />

@@ -1,0 +1,14 @@
+﻿* {
+	padding:0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: daxWide;
+    src: url(fonts/DaxWide-Light.ttf);
+}
+body {
+   
+    background-color: #800000
+  
+}
