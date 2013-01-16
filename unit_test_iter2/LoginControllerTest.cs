@@ -12,7 +12,7 @@ namespace Lecturer_Scheduler.Tests
     public class LoginControllerTest
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestMethod100()
         {
             LoginController lg = new LoginController();
             LoginModel model = new LoginModel();
