@@ -29,10 +29,7 @@ namespace Lecturer_Scheduler.Controllers
 
             var userScheduler =
                 db.Schedulers.Where(i => i.LecturerID == temp && i.Year == year && i.Semester.Equals(semester_group));
-            /*   var userScheduler = from s in db.Schedulers
-                                    where (s.LecturerID == temp) && (s.Year == ViewBag.Year) && s.Semester.Equals(ViewBag.Semester)
-                                    select s;  */
-
+           
             var viewModel = new AllModels()
             {
                 Users = db.Users.ToList(),
