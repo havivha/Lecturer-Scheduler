@@ -15,6 +15,15 @@
         <legend>User</legend>
 
         @Html.HiddenFor(model => model.UserID)
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LecturerID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LecturerID)
+            @Html.ValidationMessageFor(model => model.LecturerID)
+        </div>
+        
 
         <div class="editor-label">
             @Html.LabelFor(model => model.FirstName)
@@ -32,13 +41,7 @@
             @Html.ValidationMessageFor(model => model.LastName)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.Password)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.Password)
-            @Html.ValidationMessageFor(model => model.Password)
-        </div>
+        @Html.HiddenFor(model => model.Password)
 
         <div class="editor-label">
             @Html.LabelFor(model => model.Email)
@@ -56,21 +59,9 @@
             @Html.ValidationMessageFor(model => model.PhoneNumber)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.NumberEntrance)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.NumberEntrance)
-            @Html.ValidationMessageFor(model => model.NumberEntrance)
-        </div>
+        @Html.HiddenFor(model => model.NumberEntrance)
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.LastUpdate)
-        </div>
-        <div class="editor-field">
-            @Html.EditorFor(model => model.LastUpdate)
-            @Html.ValidationMessageFor(model => model.LastUpdate)
-        </div>
+        @Html.HiddenFor(model => model.LastUpdate)
 
         <p>
             <input type="submit" value="Save" />

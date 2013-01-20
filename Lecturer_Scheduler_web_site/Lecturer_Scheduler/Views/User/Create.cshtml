@@ -13,6 +13,14 @@
     @Html.ValidationSummary(true)
     <fieldset>
         <legend>User</legend>
+        
+        <div class="editor-label">
+            @Html.LabelFor(model => model.LecturerID)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.LecturerID)
+            @Html.ValidationMessageFor(model => model.LecturerID)
+        </div>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.FirstName)
@@ -54,13 +62,9 @@
             @Html.ValidationMessageFor(model => model.PhoneNumber)
         </div>
 
-        <div class="editor-label">
-            @Html.LabelFor(model => model.NumberEntrance)
-        </div>
-        <div class="editor-field">
+        
             @Html.EditorFor(model => model.NumberEntrance)
             @Html.ValidationMessageFor(model => model.NumberEntrance)
-        </div>
 
         <div class="editor-label">
             @Html.LabelFor(model => model.LastUpdate)

@@ -113,7 +113,7 @@ namespace Lecturer_Scheduler.Controllers
         //responsible for processing incoming requests to see the Scheduler of specific user 
         public ViewResult Scheduler(int id)
         {
-            var userSc = db.Schedulers.Where(i => i.UserId == id);
+            var userSc = db.Schedulers.Where(i => i.LecturerID == id);
 
             return View(userSc);
         }

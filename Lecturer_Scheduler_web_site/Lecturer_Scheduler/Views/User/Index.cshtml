@@ -161,7 +161,7 @@
                                     @foreach (var item in Model.Users) {
                                         <tr>
                                              <td>
-                                                @Html.DisplayFor(modelItem => item.UserID)
+                                                @Html.DisplayFor(modelItem => item.LecturerID)
                                             </td>
                                             <td>
                                                 @Html.DisplayFor(modelItem => item.FirstName)
@@ -185,10 +185,10 @@
                                                 @Html.DisplayFor(modelItem => item.LastUpdate)
                                             </td>
                                             <td>
-                                                @Html.ActionLink("Edit", "Edit", new { id=item.UserID }) |
-                                                @Html.ActionLink("Details", "Details", new { id=item.UserID }) |
-                                                @Html.ActionLink("Delete", "Delete", new { id=item.UserID }) |
-                                                @Html.ActionLink("Scheduler", "Scheduler", new { id=item.UserID })
+                                                @Html.ActionLink("Edit", "Edit", new { id=item.LecturerID }) |
+                                                @Html.ActionLink("Details", "Details", new { id = item.LecturerID }) |
+                                                @Html.ActionLink("Delete", "Delete", new { id = item.LecturerID }) |
+                                                @Html.ActionLink("Scheduler", "Scheduler", new { id = item.LecturerID })
                                             </td>
                                         </tr>
                                     }

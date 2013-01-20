@@ -9,7 +9,7 @@
 <table>
     <tr>
         <th>
-            UserId
+            ID
         </th>
         <th>
             Year
@@ -18,16 +18,28 @@
             Semester
         </th>
         <th>
-            Day
-        </th>
-        <th>
             StartTime
         </th>
         <th>
             EndTime
         </th>
         <th>
-            AvailabilityTypeId
+            Sunday
+        </th>
+        <th>
+            Monday
+        </th>
+        <th>
+            Tuesday
+        </th>
+        <th>
+            Wednesday
+        </th>
+        <th>
+            Thursday
+        </th>
+        <th>
+            Friday
         </th>
         <th></th>
     </tr>
@@ -35,16 +47,13 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.UserId)
+            @Html.DisplayFor(modelItem => item.LecturerID)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.Year)
         </td>
-		 <td>
-            @Html.DisplayFor(modelItem => item.Semester)
-        </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Day)
+            @Html.DisplayFor(modelItem => item.Semester)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.StartTime)
@@ -53,7 +62,22 @@
             @Html.DisplayFor(modelItem => item.EndTime)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.AvailabilityTypeId)
+            @Html.DisplayFor(modelItem => item.Sunday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Monday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Tuesday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Wednesday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Thursday)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Friday)
         </td>
     </tr>
 }

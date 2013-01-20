@@ -2,16 +2,42 @@
     ViewBag.Title = "About Us";
 }
 
-<h2>About</h2>
-<p>
-     This project made by:
-</p>
-<p>
-     Haviv Haim-Zada
-</p>
-<p>
-     Einat Scheafer
-</p>
-<p>
-    Hadas Shalom
-</p>
+<h2 align="center" style="font-family: Arial; font-style: normal; font-weight: bold; font-size: xx-large;">אודות</h2>
+
+<link href="@Url.Content("~/graphics/StyleAbout.css")" rel="stylesheet" type="text/css" />
+@using (Html.BeginForm())
+{
+
+    <div id="loginBox1" >
+			<nav>
+               <ul id="menu">
+               <li>@Html.ActionLink("דף הבית", "Index", "Home")</li>
+               <li>@Html.ActionLink("אודות", "About", "Home")</li>
+                </ul>
+            </nav>
+        <form method="post" action="" position="top">
+            
+            <div  class="text-box" align="right" style="font-family: Arial; font-size: large">
+                מערכת Lecturer-Scheduler הוקמה על ידי  <br/><br/>
+       
+                חביב חיים-זדה<br/><br/>
+   
+                עינת שפר<br/><br/>
+
+                הדס שלום<br/><br/>
+				
+                מטרת המערכת לאפשר ממשק נוח ויעיל להתקשרות מוסדות אקדמאיים עם עובדיה.
+                המערכת מקלה על עבודת המזכירות ומאפשרת למרצים להזין בכל תחילת שנה/סמסטר
+                את שעות הפעילות הנוחות עבורם.
+            </div>
+			<div align="center">
+			<body >
+			    <img border="0" src="/graphics/images/Lecturer Scheduler_logo.jpg" alt="Pulpit rock" width="304" height="228" align="middle" >
+			</body>
+			</div>
+        </form>
+    </div>
+
+
+}
+

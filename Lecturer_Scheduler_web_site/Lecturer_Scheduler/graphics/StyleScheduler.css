@@ -7,8 +7,73 @@
     font-family: daxWide;
     src: url(fonts/DaxWide-Light.ttf);
 }
-body {
-   
-    background-color: #800000
-  
+
+body 
+{  
+    width:100%;
+	height: 80%;
+	margin: 0;
+	padding: 0;
+    background-image: url('images/red_widget_custom_background_by_elektro2818-d5nc38g.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Guttman-Aharoni;
+    font-size: medium;
+    font-weight: bold;
+    font-style: italic;
+    font-variant: normal;
+}
+
+table
+{
+    background-color: white;
+    border-collapse: collapse;
+    border-width:5px;	
+    border-style:ridge; 
+    width: 70%;
+    border: 1px solid black;
+    table-layout:fixed;
+}
+
+th, tr{
+    
+    padding: .3em;
+    border: 1px solid black;
+    border-width: medium;
+    border-style: double;
+    -moz-border-radius:0px;
+    border-collapse:separate;
+	
+}
+
+td {
+    
+    border-width: 1px;
+	padding: 1px;
+	border-style: double;
+	border-color: black;
+	background-color: white;
+	-moz-border-radius: :0px;
+    
+}
+th {
+    width:auto ;
+}
+
+#ButtonsBox
+{
+    border-style: ridge;
+    border-color: black;
+    width: 30%;
+    height: 100%;
+    background-color: rgba(189, 89, 145, 0.48);
+    position: absolute;
+    top: auto;
+}
+
+#containerBox {
+    background-color: gainsboro;
+    border-color: gainsboro;
+    
 }

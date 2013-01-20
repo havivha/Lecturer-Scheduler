@@ -10,6 +10,7 @@ namespace Lecturer_Scheduler.Models
 
         public int UserID { get; set; }
 
+        public int LecturerID { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public String Password { get; set; }

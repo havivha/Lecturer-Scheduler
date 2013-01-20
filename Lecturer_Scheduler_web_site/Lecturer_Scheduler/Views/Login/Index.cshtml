@@ -2,40 +2,127 @@
 @{
     ViewBag.Title = "כניסה";
 }
-<h2 align="center" style="font-family: Arial; font-style: normal; font-weight: bold; font-size: xx-large;">כניסה</h2>
 
-    <link href="@Url.Content("~/graphics/StyleLogin1.css")" rel="stylesheet" type="text/css" />
+<link href="@Url.Content("~/graphics/StyleLogin1.css")" rel="stylesheet" type="text/css" />
 <script src="@Url.Content("~/Scripts/jquery.validate.min.js")" type="text/javascript"></script>
 <script src="@Url.Content("~/Scripts/jquery.validate.unobtrusive.min.js")" type="text/javascript"></script>
-
-<br/><br/>
 
 
 @using (Html.BeginForm())
 {
-     <div class="editor-label" align="center" style="font-weight: bold; font-family: Aharoni; font-size: medium" title="labelName">
-        @Html.LabelFor(m => m.Username)
-    </div>
-    <div class="editor-label" name="id" align="center" style="font-weight: bold; font-family: Aharoni; font-size: medium " >
-        @Html.TextBoxFor(m => m.Username)
-        @Html.ValidationMessageFor(m => m.Username)
-    </div>
-    <br/><br/>
-    <div class="editor-label" align="center" style="font-weight: bold; font-family: Aharoni; font-size: medium" title="labelPassword">
-        @Html.LabelFor(m => m.Password)
-    </div>
-    <div class="editor-label" name="password" align="center">
-        @Html.PasswordFor(m => m.Password)
-        @Html.ValidationMessageFor(m => m.Password)
-    </div>
-    <br/><br/>
-    <form action="">
-    <div class="editor-label" align="center">
-        <input  type="submit" value = "כניסה למערכת" class="button" align="right"  style="font-family: Aharoni; font-size: medium; font-weight: bold" />
-      
-    </div>
-    </form>
+    <div  id="container" >
+        <div id="loginBox" >
+             <nav>
+                 <ul id="menu">
+                 <li>@Html.ActionLink("דף הבית", "Index", "Home")</li>
+                  <li>@Html.ActionLink("אודות", "About", "Home")</li>
+                  </ul>
+            </nav>
+  
+            <div class="date"> <p class="padLoginContent">
+                           
+                                   <html>
 
+                                       <body onLoad="goforit()">
+									   <script>
+
+                                           /*
+                                           Live Date Script- 
+                                           © Dynamic Drive (www.dynamicdrive.com)
+                                           For full source code, installation instructions, 100's more DHTML scripts, and Terms Of Use,
+                                           visit http://www.dynamicdrive.com
+                                           */
+
+
+                                               var dayarray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday")
+                                               var montharray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+
+                                               function getthedate() {
+                                                   var mydate = new Date()
+                                                   var year = mydate.getYear()
+                                                   if (year < 1000)
+                                                       year += 1900
+                                                   var day = mydate.getDay()
+                                                   var month = mydate.getMonth()
+                                                   var daym = mydate.getDate()
+                                                   if (daym < 10)
+                                                       daym = "0" + daym
+                                                   var hours = mydate.getHours()
+                                                   var minutes = mydate.getMinutes()
+                                                   var seconds = mydate.getSeconds()
+                                                   var dn = "AM"
+                                                   if (hours >= 12)
+                                                       dn = "PM"
+                                                   if (hours > 12) {
+                                                       hours = hours - 12
+                                                   }
+                                                   if (hours == 0)
+                                                       hours = 12
+                                                   if (minutes <= 9)
+                                                       minutes = "0" + minutes
+                                                   if (seconds <= 9)
+                                                       seconds = "0" + seconds
+                                                   //change font size here
+                                                   var cdate = "<small><font color='000000' font size='2' face='Arial'><b>" + dayarray[day] + ", " + montharray[month] + " " + daym + ", " + year + " " + hours + ":" + minutes + ":" + seconds + " " + dn
+                                                       + "</b></font></small>"
+                                                   if (document.all)
+                                                       document.all.clock.innerHTML = cdate
+                                                   else if (document.getElementById)
+                                                       document.getElementById("clock").innerHTML = cdate
+                                                   else
+                                                       document.write(cdate)
+                                               }
+                                               if (!document.all && !document.getElementById)
+                                                   getthedate()
+                                               function goforit() {
+                                                   if (document.all || document.getElementById)
+                                                       setInterval("getthedate()", 1000)
+                                               }
+ 
+                                           </script>
+                                           <span id="clock"></span>
+
+                                       </body>
+                                   </html>
+
+                               </p></div>
+                           
+            <div class="welcome"><H1>   ברוכים הבאים   </H1></div>
+       
+       
+            <div id="colwrap3">
+           
+                <div class="id">
+                    <label> שם משתמש </label>
+                </div>
+                <div class="fillId"
+                     type="text" TabIndex="1"  dir="ltr">
+           
+                    @Html.TextBoxFor(m => m.Username)
+                    @Html.ValidationMessageFor(m => m.Username)
+           
+                
+                </div>
+                <br/><br/>
+
+                <div class="id">
+                    <label> סיסמא </label>
+                </div>
+
+                <div class="fillPassword" >
+                    <a class="formField"  name="password" tabindex="2"></a>
+
+                    @Html.PasswordFor(m => m.Password)
+                    @Html.ValidationMessageFor(m => m.Password)
+                </div>
+            </div>
+               
+            <input class="enter" type=submit value="כניסה למערכת" name=Upload  accesskey="L"  >
+        </div>
+      </div>
+      
     @Html.ValidationSummary()
-    
+
+     <div id="rights" >Lecturer Scheduler © 2013 | @Html.ActionLink("About", "About", "Home") · Terms · Privacy · Advertisers · Careers</div>
 }
+

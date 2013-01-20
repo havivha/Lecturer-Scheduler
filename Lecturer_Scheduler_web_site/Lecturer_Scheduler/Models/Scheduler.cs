@@ -8,16 +8,20 @@ namespace Lecturer_Scheduler.Models
         public int SchedulerId { get; set; }
 
         //ForeignKey -- the ID of the user
-        public int UserId { get; set; }
-
-        public String Day { get; set; }
-        public int AvailabilityTypeId {get; set;}
-        public int StartTime { get; set; }
-        public  int EndTime { get; set; }
+        public int LecturerID { get; set; }
         public int Year { get; set; }
         public string Semester { get; set; }
 
-   
+        public int StartTime { get; set; }
+        public int EndTime { get; set; }
 
+        public String Sunday { get; set; }
+        public String Monday { get; set; }
+        public String Tuesday { get; set; }
+        public String Wednesday { get; set; }
+        public String Thursday { get; set; }
+        public String Friday { get; set; }
+
+             
     }
 }
