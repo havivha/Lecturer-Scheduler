@@ -14,7 +14,7 @@ namespace Lecturer_Scheduler.Controllers
         [HttpGet]
         public ActionResult Index()
         {
-            ViewBag.flag = 0;
+            ViewBag.flag = 0; // להציג מערכת ריקה
             return View();
         }
 
